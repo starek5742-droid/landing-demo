@@ -101,13 +101,9 @@ p { color: var(--muted); }
 .mini-chat span { justify-self: start; padding: .45rem .62rem; background: #fff; border: 1px solid #ccd8f5; border-radius: 8px 8px 8px 2px; color: #233459; font-size: .85rem; }
 .mini-chat span:nth-child(2) { justify-self: end; background: #294bcb; color: #fff; border-radius: 7px 7px 2px 7px; }
 .mini-chat span:last-child { background: #dce6ff; border-color: #9eb3eb; color: #253d8a; font-weight: 720; }
-.preview-marketplace { background: #e0f2ed; }
-.mini-product { display: grid; grid-template-columns: minmax(0, 1fr) 64px; align-items: center; gap: .6rem; width: min(100%, 278px); padding: .85rem; border: 1px solid #a9cfbf; border-radius: 10px; background: #f4fbf8; color: #203c36; }
-.mini-product-copy { display: grid; justify-items: start; gap: .3rem; }
-.mini-product-copy strong { font-size: 1.3rem; line-height: 1.1; }
-.mini-product-copy span { padding: .18rem .4rem; border-radius: 4px; background: #d8eee5; font-size: .75rem; }
-.mini-thermos { position: relative; justify-self: center; width: 50px; height: 96px; margin-top: 22px; border-radius: 12px 12px 10px 10px; background: linear-gradient(90deg, #174438, #398671 42%, #1b5142 90%); box-shadow: 6px 8px 10px #17443830; }
-.mini-thermos::before { content: ""; position: absolute; inset: -22px 3px auto; height: 24px; border-radius: 8px 8px 4px 4px; background: linear-gradient(90deg, #263a34, #526964 45%, #263a34); }
+.preview-marketplace { background: #e7eeff; }
+.preview-marketplace a { display: block; width: min(100%, 180px); border-radius: 8px; }
+.preview-marketplace img { display: block; width: 100%; height: auto; border-radius: inherit; }
 .example-body, .service-card { padding: 1.15rem; }
 .demo-label { display: inline-block; margin-bottom: .55rem; color: #1735a8; background: #eaf0ff; padding: .15rem .48rem; border-radius: 5px; font-size: .86rem; font-weight: 750; }
 .example-body p, .service-card p { margin-top: .55rem; }
